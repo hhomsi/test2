@@ -1,3 +1,3 @@
 const ppGetValue = document.getElementById('mm-connect')
-ppGetValue.onclick = async () => {
-  getPoolsAndMembersDetails();}
+ppGetValue.onclick = () => {
+  alert("Hi! this is test2");}
