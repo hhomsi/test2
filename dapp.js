@@ -468,13 +468,13 @@ const initialize = () =>
     MetaMaskClientCheck();
 }
 //We create a new MetaMask onboarding object to use in our app
-const onboarding = new MetaMaskOnboarding();
+//const onboarding = new MetaMaskOnboarding();
 const onClickInstall = () => {
-  const mmEnable = document.getElementById('mm-connect');
-  mmEnable.innerText = 'Onboarding in progress';
-  mmEnable.disabled = true;
+  //const mmEnable = document.getElementById('mm-connect');
+  //mmEnable.innerText = 'Onboarding in progress';
+  //mmEnable.disabled = true;
   //On this object we have startOnboarding which will start the onboarding process for our end user
-  onboarding.startOnboarding();
+  //onboarding.startOnboarding();
 };
 
 const onClickConnect = async () => {
